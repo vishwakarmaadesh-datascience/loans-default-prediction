@@ -1,15 +1,16 @@
 # Loan Default Prediction System
 
-An end-to-end Machine Learning project for predicting loan default risk using Scikit-learn, FastAPI, and Streamlit.  
+An end-to-end Machine Learning project for predicting loan default risk using Scikit-learn, FastAPI, and Streamlit.
+
 The system analyzes customer financial information and predicts whether a customer is likely to default on a loan, along with probability-based risk assessment.
 
 ---
 
 # Project Overview
 
-This project was developed to simulate a real-world financial risk assessment pipeline used in banks and fintech companies.  
-It includes:
+This project simulates a real-world financial risk assessment system used in banks and fintech companies.
 
+The project includes:
 - Data preprocessing and cleaning
 - Exploratory Data Analysis (EDA)
 - Machine Learning model training
@@ -24,7 +25,7 @@ It includes:
 
 The dataset contains customer financial and credit-related information used for predicting loan default behavior.
 
-### Dataset Features
+## Dataset Features
 
 | Feature | Description |
 |---|---|
@@ -39,17 +40,17 @@ The dataset contains customer financial and credit-related information used for 
 | NumberOfTime60-89DaysPastDueNotWorse | Number of 60–89 days late payments |
 | NumberOfDependents | Number of dependents |
 
-### Target Variable
+## Target Variable
 
 | Target | Meaning |
 |---|---|
 | SeriousDlqin2yrs | Whether customer defaulted within 2 years |
 
-### Dataset Size
+## Dataset Size
 
 - ~150,000 records
-- Financial risk classification dataset
-- Binary classification problem
+- Binary Classification Dataset
+- Financial Risk Prediction Problem
 
 ---
 
@@ -88,12 +89,14 @@ The dataset contains customer financial and credit-related information used for 
 - Column transformations
 
 ## 4. Model Training
+
 Implemented and compared:
 - Logistic Regression
 - Random Forest Classifier
 - Gradient Boosting Classifier
 
 ## 5. Pipeline Creation
+
 Used:
 - Pipeline
 - ColumnTransformer
@@ -114,21 +117,34 @@ The backend API provides:
 
 ```bash
 uvicorn api.main:app --reload
+```
 
-#Swagger API Docs
-Bash
+## Swagger API Docs
+
+```bash
 http://127.0.0.1:8000/docs
-Frontend Application (Streamlit)
-Interactive frontend built using Streamlit for:
-User input collection
-Risk prediction
-Probability visualization
+```
 
-#Run Frontend
-Bash
+---
+
+# Frontend Application (Streamlit)
+
+Interactive frontend built using Streamlit for:
+- User input collection
+- Risk prediction
+- Probability visualization
+
+## Run Frontend
+
+```bash
 streamlit run frontend/app.py
-#Sample API Input
-JSON
+```
+
+---
+
+# Sample API Input
+
+```json
 {
   "revolving_utilization": 0.5,
   "age": 45,
@@ -141,8 +157,13 @@ JSON
   "times_60_89_days_late": 0,
   "dependents": 2
 }
-#Project Structure
-Bash
+```
+
+---
+
+# Project Structure
+
+```bash
 loan-default-pipeline/
 │
 ├── api/
@@ -162,10 +183,35 @@ loan-default-pipeline/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-#Key Features
-End-to-end ML pipeline
-Real-time prediction system
-REST API integration
-Interactive frontend UI
-Deployment-ready architecture
-Risk probability scoring
+```
+
+---
+
+# Key Features
+
+- End-to-end ML pipeline
+- Real-time prediction system
+- REST API integration
+- Interactive frontend UI
+- Deployment-ready architecture
+- Risk probability scoring
+
+---
+
+# Future Improvements
+
+- Docker deployment
+- Cloud deployment (AWS/GCP/Azure)
+- Model monitoring
+- CI/CD integration
+- Authentication system
+- Advanced explainability using SHAP/LIME
+
+---
+
+# Author
+
+Adesh Vishwakarma
+
+GitHub:
+https://github.com/vishwakarmaadesh-datascience
