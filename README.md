@@ -115,7 +115,7 @@ The backend API provides:
 ```bash
 uvicorn api.main:app --reload
 
-Swagger API Docs
+#Swagger API Docs
 Bash
 http://127.0.0.1:8000/docs
 Frontend Application (Streamlit)
@@ -123,10 +123,11 @@ Interactive frontend built using Streamlit for:
 User input collection
 Risk prediction
 Probability visualization
-Run Frontend
+
+#Run Frontend
 Bash
 streamlit run frontend/app.py
-Sample API Input
+#Sample API Input
 JSON
 {
   "revolving_utilization": 0.5,
@@ -140,7 +141,7 @@ JSON
   "times_60_89_days_late": 0,
   "dependents": 2
 }
-Project Structure
+#Project Structure
 Bash
 loan-default-pipeline/
 │
@@ -161,7 +162,7 @@ loan-default-pipeline/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-Key Features
+#Key Features
 End-to-end ML pipeline
 Real-time prediction system
 REST API integration
