@@ -186,7 +186,7 @@ loan-default-pipeline/
 ```
 
 ---
-#Images of Accuracy of Logistic Regression,Gradient Boosting and Random Forest
+# Images of Accuracy of Logistic Regression,Gradient Boosting and Random Forest
 <img width="1083" height="655" alt="loansdefault-modelaccuracy" src="https://github.com/user-attachments/assets/374dd010-4b52-4c71-bc03-0d74ee469a5f" />
 
 # Key Features
