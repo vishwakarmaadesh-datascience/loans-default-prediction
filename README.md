@@ -322,7 +322,7 @@ MSc Data Science Student | BSc Data Science Graduate | Aspiring Machine Learning
 
 - **GitHub:** [vishwakarmaadesh-datascience](https://github.com/vishwakarmaadesh-datascience)
 - **LinkedIn:** [Adesh Vishwakarma](https://www.linkedin.com/in/adesh-vishwakarma-53108b324/)
-
+- **Live Demo:** https://loans-default-prediction-b7s6qysr8qtwzdk8blfv3v.streamlit.app/
 ---
 
 *Developed as an end-to-end Machine Learning and Financial Risk Analytics project.*
